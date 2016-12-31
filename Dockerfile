@@ -1,5 +1,7 @@
 FROM finanzcheck/jekyll
 
+RUN bundle config build.nokogiri --use-system-libraries
+
 RUN apk --no-cache add tini git openssh-client \
     && apk --no-cache add --virtual devs tar curl
 
