@@ -1,0 +1,8 @@
+LICENSE*
+README*
+.git
+.dockerignore
+.travis.yml
+public/
+.imdone
+.gitignore
